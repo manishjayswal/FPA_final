@@ -1,0 +1,226 @@
+.download,
+.upload,
+.upload1 {
+  position: absolute;
+  top: 33.15%;
+  left: 35.36%;
+  font-size: var(--font-size-base);
+}
+.download,
+.upload1 {
+  top: 66.67%;
+  left: 35.42%;
+}
+.download {
+  top: 72.69%;
+  left: 34.74%;
+}
+.image1Icon {
+  position: absolute;
+  height: 64.44%;
+  width: 37.71%;
+  top: 19.81%;
+  right: 51.25%;
+  bottom: 15.74%;
+  left: 11.04%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.financialSimulation {
+  position: absolute;
+  top: 4.63%;
+  left: 32.86%;
+  font-size: var(--font-size-45xl);
+  color: var(--color-black);
+}
+.desktop2Child,
+.desktop2Item {
+  position: absolute;
+  height: 64.44%;
+  width: 36.61%;
+  top: 17.13%;
+  right: 4.74%;
+  bottom: 18.43%;
+  left: 58.65%;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-black);
+}
+.desktop2Item {
+  height: 4.63%;
+  width: 9.38%;
+  top: 38.52%;
+  right: 13.59%;
+  bottom: 56.85%;
+  left: 77.03%;
+  border-radius: var(--br-xl);
+  background-color: var(--color-silver);
+}
+.clickHere {
+  position: absolute;
+  top: 39.17%;
+  left: 78.7%;
+  color: var(--color-black);
+}
+.desktop2Inner {
+  position: absolute;
+  height: 4.63%;
+  width: 9.38%;
+  top: 30.09%;
+  right: 13.59%;
+  bottom: 65.28%;
+  left: 77.03%;
+  border-radius: var(--br-xl);
+  background-color: var(--color-silver);
+}
+.chart3 {
+  position: absolute;
+  top: 56.2%;
+  left: 67.4%;
+}
+.chart1,
+.chart2,
+.chart4 {
+  position: absolute;
+  top: 64.72%;
+  left: 67.29%;
+}
+.chart1,
+.chart2 {
+  top: 39.17%;
+  left: 67.34%;
+}
+.chart2 {
+  top: 47.69%;
+}
+.previewAndVisualize {
+  margin: 0;
+}
+.previewAndVisualizeContainer {
+  position: absolute;
+  top: 18.43%;
+  left: 64.43%;
+  font-size: var(--font-size-17xl);
+  white-space: pre-wrap;
+}
+.rectangleDiv,
+.viewFile {
+  position: absolute;
+  top: 30.74%;
+  left: 66.72%;
+}
+.rectangleDiv {
+  height: 4.63%;
+  width: 9.38%;
+  top: 47.04%;
+  right: 13.59%;
+  bottom: 48.33%;
+  left: 77.03%;
+  border-radius: var(--br-xl);
+  background-color: var(--color-silver);
+}
+.clickHere1 {
+  position: absolute;
+  top: 30.74%;
+  left: 78.75%;
+  color: var(--color-black);
+}
+.chart5 {
+  position: absolute;
+  top: 73.24%;
+  left: 67.4%;
+}
+.desktop2Child1,
+.desktop2Child2,
+.desktop2Child3 {
+  position: absolute;
+  height: 4.63%;
+  width: 9.38%;
+  top: 55.56%;
+  right: 13.65%;
+  bottom: 39.81%;
+  left: 76.98%;
+  border-radius: var(--br-xl);
+  background-color: var(--color-silver);
+}
+.desktop2Child2,
+.desktop2Child3 {
+  top: 64.17%;
+  bottom: 31.2%;
+}
+.desktop2Child3 {
+  top: 72.5%;
+  right: 13.59%;
+  bottom: 22.87%;
+  left: 77.03%;
+}
+.clickHere2,
+.clickHere3,
+.clickHere4,
+.clickHere5 {
+  position: absolute;
+  top: 47.69%;
+  left: 78.75%;
+  color: var(--color-black);
+}
+.clickHere3,
+.clickHere4,
+.clickHere5 {
+  top: 56.2%;
+}
+.clickHere4,
+.clickHere5 {
+  top: 64.91%;
+  left: 78.7%;
+}
+.clickHere5 {
+  top: 73.24%;
+}
+.desktop2Child4 {
+  position: absolute;
+  height: 4.63%;
+  width: 10.42%;
+  top: 88.61%;
+  right: 35.57%;
+  bottom: 6.76%;
+  left: 54.01%;
+  border-radius: var(--br-xl);
+  background-color: var(--color-silver);
+  cursor: pointer;
+}
+.next {
+  position: absolute;
+  top: 89.35%;
+  left: 57.81%;
+  color: var(--color-black);
+}
+.desktop2Child5 {
+  position: absolute;
+  height: 4.63%;
+  width: 10.42%;
+  top: 88.61%;
+  right: 51.25%;
+  bottom: 6.76%;
+  left: 38.33%;
+  border-radius: var(--br-xl);
+  background-color: var(--color-silver);
+  cursor: pointer;
+}
+.previous {
+  position: absolute;
+  top: 89.35%;
+  left: 40.94%;
+  color: var(--color-black);
+}
+.desktop2 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1080px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-secular-one);
+}

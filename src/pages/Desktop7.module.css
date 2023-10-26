@@ -1,0 +1,204 @@
+.download,
+.upload,
+.upload1 {
+  position: absolute;
+  top: 33.15%;
+  left: 35.36%;
+  font-size: var(--font-size-base);
+}
+.download,
+.upload1 {
+  top: 66.67%;
+  left: 35.42%;
+}
+.download {
+  top: 72.69%;
+  left: 34.74%;
+}
+.image1Icon {
+  position: absolute;
+  height: 70.93%;
+  width: 39.9%;
+  top: 16.11%;
+  right: 48.8%;
+  bottom: 12.96%;
+  left: 11.3%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.financialSimulation {
+  position: absolute;
+  top: 3.61%;
+  left: 36.82%;
+  font-size: var(--font-size-45xl);
+  color: var(--color-black);
+}
+.desktop7Child,
+.desktop7Item {
+  position: absolute;
+  height: 67.31%;
+  width: 33.7%;
+  top: 17.87%;
+  right: 6.04%;
+  bottom: 14.81%;
+  left: 60.26%;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-black);
+}
+.desktop7Item {
+  height: 4.63%;
+  width: 9.38%;
+  top: 31.3%;
+  right: 12.86%;
+  bottom: 64.07%;
+  left: 77.76%;
+  border-radius: var(--br-xl);
+  background-color: var(--color-silver);
+}
+.clickHere {
+  position: absolute;
+  top: 31.94%;
+  left: 79.43%;
+  color: var(--color-black);
+}
+.chart3,
+.chart4 {
+  position: absolute;
+  top: 48.98%;
+  left: 68.13%;
+}
+.chart4 {
+  top: 57.5%;
+  left: 68.02%;
+}
+.chart1,
+.chart2,
+.desktop7Inner {
+  position: absolute;
+  top: 31.94%;
+  left: 68.07%;
+}
+.chart2,
+.desktop7Inner {
+  top: 40.46%;
+}
+.desktop7Inner {
+  height: 4.63%;
+  width: 9.38%;
+  top: 39.81%;
+  right: 12.86%;
+  bottom: 55.56%;
+  left: 77.76%;
+  border-radius: var(--br-xl);
+  background-color: var(--color-silver);
+}
+.chart5 {
+  position: absolute;
+  top: 66.02%;
+  left: 68.13%;
+}
+.desktop7Child1,
+.desktop7Child2,
+.rectangleDiv {
+  position: absolute;
+  height: 4.63%;
+  width: 9.38%;
+  top: 48.33%;
+  right: 12.92%;
+  bottom: 47.04%;
+  left: 77.71%;
+  border-radius: var(--br-xl);
+  background-color: var(--color-silver);
+}
+.desktop7Child1,
+.desktop7Child2 {
+  top: 56.94%;
+  bottom: 38.43%;
+}
+.desktop7Child2 {
+  top: 65.28%;
+  right: 12.86%;
+  bottom: 30.09%;
+  left: 77.76%;
+}
+.clickHere1,
+.clickHere2,
+.clickHere3,
+.clickHere4 {
+  position: absolute;
+  top: 40.46%;
+  left: 79.48%;
+  color: var(--color-black);
+}
+.clickHere2,
+.clickHere3,
+.clickHere4 {
+  top: 48.98%;
+}
+.clickHere3,
+.clickHere4 {
+  top: 57.69%;
+  left: 79.43%;
+}
+.clickHere4 {
+  top: 66.02%;
+}
+.chart6,
+.desktop7Child3 {
+  position: absolute;
+  top: 74.54%;
+  left: 68.23%;
+}
+.desktop7Child3 {
+  height: 4.63%;
+  width: 9.38%;
+  top: 73.8%;
+  right: 12.92%;
+  bottom: 21.57%;
+  left: 77.71%;
+  border-radius: var(--br-xl);
+  background-color: var(--color-silver);
+}
+.clickHere5 {
+  position: absolute;
+  top: 74.63%;
+  left: 79.53%;
+  color: var(--color-black);
+}
+.visualizePlForecast {
+  position: absolute;
+  top: 21.57%;
+  left: 67.08%;
+  font-size: var(--font-size-17xl);
+}
+.desktop7Child4 {
+  position: absolute;
+  height: 4.63%;
+  width: 10.42%;
+  top: 90.93%;
+  right: 43.59%;
+  bottom: 4.44%;
+  left: 45.99%;
+  border-radius: var(--br-xl);
+  background-color: var(--color-silver);
+  cursor: pointer;
+}
+.previous {
+  position: absolute;
+  top: 91.67%;
+  left: 48.59%;
+  color: var(--color-black);
+}
+.desktop7 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1080px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-secular-one);
+}

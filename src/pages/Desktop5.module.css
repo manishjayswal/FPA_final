@@ -1,0 +1,223 @@
+.download,
+.upload,
+.upload1 {
+  position: absolute;
+  top: 33.15%;
+  left: 35.36%;
+  font-size: var(--font-size-base);
+}
+.download,
+.upload1 {
+  top: 66.67%;
+  left: 35.42%;
+}
+.download {
+  top: 72.69%;
+  left: 34.74%;
+}
+.funding1Icon {
+  position: absolute;
+  height: 58.8%;
+  width: 48.39%;
+  top: 22.22%;
+  right: 45.52%;
+  bottom: 18.98%;
+  left: 6.09%;
+  border-radius: var(--br-59xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.financialSimulation {
+  position: absolute;
+  top: 3.8%;
+  left: 32.71%;
+  font-size: var(--font-size-45xl);
+  color: var(--color-black);
+}
+.desktop5Child {
+  position: absolute;
+  height: 67.31%;
+  width: 35.68%;
+  top: 17.96%;
+  right: 6.46%;
+  bottom: 14.72%;
+  left: 57.86%;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-black);
+}
+.forecastPl {
+  position: absolute;
+  top: 22.22%;
+  left: 71.04%;
+  font-size: var(--font-size-17xl);
+}
+.desktop5Item {
+  position: absolute;
+  height: 4.63%;
+  width: 9.38%;
+  top: 40.74%;
+  right: 13.85%;
+  bottom: 54.63%;
+  left: 76.77%;
+  border-radius: var(--br-xl);
+  background-color: var(--color-silver);
+}
+.clickHere {
+  position: absolute;
+  top: 41.39%;
+  left: 78.44%;
+  color: var(--color-black);
+}
+.desktop5Inner {
+  position: absolute;
+  height: 4.63%;
+  width: 9.38%;
+  top: 32.31%;
+  right: 13.85%;
+  bottom: 63.06%;
+  left: 76.77%;
+  border-radius: var(--br-xl);
+  background-color: var(--color-silver);
+}
+.detailedYear12,
+.detailedYear3 {
+  position: absolute;
+  top: 58.43%;
+  left: 64.74%;
+}
+.detailedYear12 {
+  top: 66.94%;
+  left: 64.22%;
+}
+.detailedYear1,
+.detailedYear2 {
+  position: absolute;
+  top: 41.39%;
+  left: 64.79%;
+}
+.detailedYear2 {
+  top: 49.91%;
+  left: 64.84%;
+}
+.annualizedSummary,
+.rectangleDiv {
+  position: absolute;
+  top: 32.96%;
+  left: 62.86%;
+}
+.rectangleDiv {
+  height: 4.63%;
+  width: 9.38%;
+  top: 49.26%;
+  right: 13.85%;
+  bottom: 46.11%;
+  left: 76.77%;
+  border-radius: var(--br-xl);
+  background-color: var(--color-silver);
+}
+.clickHere1 {
+  position: absolute;
+  top: 32.96%;
+  left: 78.49%;
+  color: var(--color-black);
+}
+.detailedYear123 {
+  position: absolute;
+  top: 75.46%;
+  left: 63.49%;
+}
+.desktop5Child1,
+.desktop5Child2,
+.desktop5Child3 {
+  position: absolute;
+  height: 4.63%;
+  width: 9.38%;
+  top: 57.78%;
+  right: 13.91%;
+  bottom: 37.59%;
+  left: 76.72%;
+  border-radius: var(--br-xl);
+  background-color: var(--color-silver);
+}
+.desktop5Child2,
+.desktop5Child3 {
+  top: 66.39%;
+  bottom: 28.98%;
+}
+.desktop5Child3 {
+  top: 74.72%;
+  right: 13.85%;
+  bottom: 20.65%;
+  left: 76.77%;
+}
+.clickHere2,
+.clickHere3,
+.clickHere4,
+.clickHere5 {
+  position: absolute;
+  top: 49.91%;
+  left: 78.49%;
+  color: var(--color-black);
+}
+.clickHere3,
+.clickHere4,
+.clickHere5 {
+  top: 58.43%;
+}
+.clickHere4,
+.clickHere5 {
+  top: 67.13%;
+  left: 78.44%;
+}
+.clickHere5 {
+  top: 75.46%;
+}
+.desktop5Child4 {
+  position: absolute;
+  height: 4.63%;
+  width: 10.42%;
+  top: 90.83%;
+  right: 37.08%;
+  bottom: 4.54%;
+  left: 52.5%;
+  border-radius: var(--br-xl);
+  background-color: var(--color-silver);
+  cursor: pointer;
+}
+.next {
+  position: absolute;
+  top: 91.57%;
+  left: 56.3%;
+  color: var(--color-black);
+}
+.desktop5Child5 {
+  position: absolute;
+  height: 4.63%;
+  width: 10.42%;
+  top: 90.83%;
+  right: 52.76%;
+  bottom: 4.54%;
+  left: 36.82%;
+  border-radius: var(--br-xl);
+  background-color: var(--color-silver);
+  cursor: pointer;
+}
+.previous {
+  position: absolute;
+  top: 91.57%;
+  left: 39.43%;
+  color: var(--color-black);
+}
+.desktop5 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1080px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-secular-one);
+}
