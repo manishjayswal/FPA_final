@@ -31,7 +31,8 @@ def upload_file():
     return 'File uploaded successfully'
 
 def calculation_logic(updated_data, post):
-    file_path = 'C:\\Users\\Manish\\Downloads\\SurgeDataLab\\Simulation of FPA Model\\vinayak_code\\Surge-FPA-Simulation\\backend\\uploads\\FPA Model Input File.csv'
+    # file_path = 'C:\\Users\\Manish\\Downloads\\SurgeDataLab\\Simulation of FPA Model\\vinayak_code\\Surge-FPA-Simulation\\backend\\uploads\\FPA Model Input File.csv'
+    file_path = os.path.join(app.config['UPLOAD_FOLDER'], "FPA Model Input File.csv")
     # './uploads/FPA Model Input File.csv'
     model1 = pd.read_csv(file_path, index_col='Driver Model') #model1 is dataframe
     m1 = model1.head(25) #m1 is dataframe
@@ -607,7 +608,10 @@ def calculation_logic(updated_data, post):
             total_average_balance_summary = floating_apr_summary + fixed_apr_summary + promo_apr_summary + transactors_summary
             summary_dict['total_average_balance_summary_' +yr] = str(round(total_average_balance_summary*100, 2)) + "%"
 
-    m1.to_csv('C:\\Users\\Manish\\Downloads\\SurgeDataLab\\Simulation of FPA Model\\vinayak_code\\Surge-FPA-Simulation\\backend\\outputfiles\\Output.csv')
+    # m1.to_csv('C:\\Users\\Manish\\Downloads\\SurgeDataLab\\Simulation of FPA Model\\vinayak_code\\Surge-FPA-Simulation\\backend\\outputfiles\\Output.csv')
+    DOWNLOAD_FOLDER = 'outputfiles'
+    app.config['DOWNLOAD_FOLDER'] = DOWNLOAD_FOLDER
+    m1.to_csv(os.path.join(app.config['DOWNLOAD_FOLDER'], "Output.csv"))
     for key, values in summary_dict.items():
         print(key, values)
         print("\n")
