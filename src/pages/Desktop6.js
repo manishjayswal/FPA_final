@@ -36,6 +36,7 @@ const Desktop6 = () => {
       // Send a POST request to update all rows
       // await axios.post('http://127.0.0.1:5000/update-data', updatedData);
       const response = await fetch('http://127.0.0.1:5000/calcm', {
+        // const response = await fetch('https://flask-mj.azurewebsites.net/calcm', {
         method : "POST",
         headers: {
           'Content-Type': 'application/json',
