@@ -66,7 +66,7 @@ const Desktop1 = () => {
     // Send a request to the backend to trigger the calculation
     axios
       // .get("http://localhost:5000/calculate")
-      .get("http://20.219.102.20:5000https://fpasimulate.azurewebsites.net/calculate")
+      .get("https://fpasimulate.azurewebsites.net/calculate")
       .then((response) => {
         console.log(response.data);
         // Handle success, maybe show a success message
