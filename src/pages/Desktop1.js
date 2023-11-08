@@ -49,7 +49,7 @@ const Desktop1 = () => {
 
     axios
       // .post("http://localhost:5000/uploads", formData, {
-        .post("http://20.219.102.20:5000/uploads", formData, {
+        .post("https://fpasimulate.azurewebsites.net/uploads", formData, {
         headers: {
           "Content-Type": "multipart/form-data",
         },
@@ -66,7 +66,7 @@ const Desktop1 = () => {
     // Send a request to the backend to trigger the calculation
     axios
       // .get("http://localhost:5000/calculate")
-      .get("http://20.219.102.20:5000/calculate")
+      .get("http://20.219.102.20:5000https://fpasimulate.azurewebsites.net/calculate")
       .then((response) => {
         console.log(response.data);
         // Handle success, maybe show a success message
@@ -82,7 +82,7 @@ const Desktop1 = () => {
     // Trigger the file download by creating a link and clicking it
     const downloadLink = document.createElement("a");
     // downloadLink.href = "http://localhost:5000/outputfiles/Output.csv";
-    downloadLink.href = "http://20.219.102.20:5000/outputfiles/Output.csv"
+    downloadLink.href = "https://fpasimulate.azurewebsites.net/outputfiles/Output.csv"
     downloadLink.download = "Output.csv";
     downloadLink.click();
   };
