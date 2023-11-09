@@ -514,7 +514,7 @@ def calculation_logic(updated_data, post):
             summary_dict['average_ticket_summary_' +yr] =  summary_dict['average_ticket_summary_bs']
             summary_dict['new_accounts_summary_' +yr] =  summary_dict['new_accounts_summary_bs']
             summary_dict['eop_accounts_summary_' +yr] = summary_dict['eop_accounts_summary_bs'] 
-            summary_dict['applications_summary_' +yr] = summary_dict['eop_accounts_summary_bs']
+            summary_dict['applications_summary_' +yr] = summary_dict['applications_summary_bs']
             summary_dict['approval_rate_summary_' +yr] = summary_dict['approval_rate_summary_bs']
             summary_dict['average_actives_summary_' +yr] = summary_dict['average_actives_summary_bs']
             summary_dict['sales_per_active_summary_' +yr] = summary_dict['sales_per_active_summary_bs']
@@ -735,4 +735,4 @@ def update_data():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, host="0.0.0.0", port=5000)
